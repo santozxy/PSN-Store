@@ -1,0 +1,53 @@
+
+h5 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+p {
+	color: #ccc;
+	font-size: 1.3rem;
+	text-align: start;
+}
+
+.btn {
+	border-radius: 1rem;
+	padding: 0.5rem 2rem;
+	display: flex;
+	align-self: flex-start;
+	font-size: 1.2rem;
+	transition: 0.3s ease-in-out;
+}
+
+.spider {
+	color: red;
+	background-color: #fff;
+}
+
+.spider:hover {
+	border: 2px solid #000;
+	transform: scale(1.07);
+}
+.warzone {
+	color: rgb(255, 255, 255);
+	background-color: #2f036e6d;
+}
+
+.warzone:hover {
+	border: 2px solid #ffffff;
+	transform: scale(1.07);
+}
+
+.diablo {
+	color: rgb(184, 138, 2);
+	background-color: #1c1b1b;
+	position: absolute;
+	bottom: 5.625rem;
+	left: 0;
+}
+
+.diablo:hover {
+	border: 2px solid rgb(184, 138, 2);
+	transform: scale(1.07);
+}

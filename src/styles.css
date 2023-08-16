@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	margin: auto;
+	max-width: 1600px;
+	background-image: linear-gradient(to bottom, #2b3035, #24292d, #1d2126, #161a1f, #0e1318);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

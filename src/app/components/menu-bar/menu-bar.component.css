@@ -1,0 +1,64 @@
+nav{
+
+	z-index: 1;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.navbar-nav {
+	margin: auto;
+}
+
+
+.navbar-brand img {
+	margin-right: 0.5rem;
+	width: 3.125rem;
+	height: 3.125rem;
+}
+
+.nav-item {
+	font-size: 1.3rem;
+	margin-right: 1rem;
+	transition: 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+	transform: scale(1.06);
+	border-bottom: 1px solid #ddd;
+}
+
+.search {
+	width: 2rem;
+	height: 2rem;
+	transition: 0.3s ease-in;
+}
+
+.search:hover {
+	transform: scale(1.2);
+}
+
+.buy {
+	width: 2rem;
+	height: 2rem;
+	transition: 0.3s ease-in;
+	z-index: -2;
+}
+
+.btn p{
+	font-size: 1.5rem;
+	color: #ffffff;
+	font-weight: bolder;
+	margin-bottom: -2.5rem;
+	margin-right: 3rem;
+}
+
+@media screen and (max-width:600px) {
+
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+
+}

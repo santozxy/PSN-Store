@@ -1,0 +1,20 @@
+<div class="cards">
+	<a [routerLink]="['/details',game.gameName, game.id]" class="card__container" *ngFor="let game of games">
+		<img class="card__img" src="{{game.gameCover}}" alt="Game" />
+
+		<div class="card-pricing__container">
+			<div class="card-pricing__title">
+				<h3>{{ game.gameName }}</h3>
+			</div>
+			<div class="card-pricing__value">
+				<div class="card-pricing__value__console">
+					<span>|</span>
+					<p>{{ game.gameType }}</p>
+				</div>
+				<div class="card-pricing__value__money">
+					<p class="game-price">{{ game.gamePrice }}</p>
+				</div>
+			</div>
+		</div>
+	</a>
+</div>
